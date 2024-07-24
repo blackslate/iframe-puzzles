@@ -10,6 +10,6 @@ export const App = (props) => {
 
 
   return (
-    <h1>App goes here</h1>
+    <iframe src="/puzzles/test/index.html" title="Test"></iframe>
   )
 }
