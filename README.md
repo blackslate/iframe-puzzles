@@ -1,6 +1,6 @@
 # Puzzles #
 
-[Demo](https://blackslate.github.io/puzzles)
+[Demo](https://blackslate.github.io/iframe-puzzles)
 
 A React web app which showcases a number of puzzles. Each puzzle is developed as a standalone React app. The main app is designed to read in each standalone puzzle app as an iframe.
 
