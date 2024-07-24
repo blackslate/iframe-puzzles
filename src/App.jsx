@@ -4,16 +4,21 @@
 
 
 import React from 'react'
+import { Provider } from './contexts'
+import { Menu } from './Menu'
+import { IFrame } from './IFrame'
 
 
-export const App = (props) => {
+
+
+
+export const App = () => {
 
 
   return (
-    <iframe
-      src="/puzzles/test/index.html"
-      title="Test"
-      sandbox='allow-scripts allow-modals'
-    ></iframe>
+    <Provider>
+      <Menu />
+      <IFrame />
+    </Provider>
   )
 }

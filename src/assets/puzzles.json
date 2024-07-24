@@ -1,0 +1,4 @@
+[
+  { "root": "puzzle_01", "title": "Puzzle One", "icon": "number-1.png" },
+  { "root": "puzzle_02", "title": "Puzzle Two", "icon": "dice-two.svg" }
+]
